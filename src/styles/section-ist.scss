@@ -1,0 +1,33 @@
+.container{
+    margin: auto;
+height: 100%;    
+    //display: table;
+    place-items: center;
+}
+.bg-cen-top{
+    background-position: 100% 44%;
+}
+.inner-div{
+    padding-right: 7rem;
+}
+.description{
+     margin: 10px 3rem 10px 0px;
+}
+.paragraph-container{
+    padding: 4rem 0;
+    margin: auto;
+}
+@media only screen and (max-width: 500px) {
+    .container{
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+    }
+    .inner-div {
+     padding: 15px !important;
+    }
+    .paragraph-container{
+        width: 90%;
+        margin: auto;
+    }
+  }

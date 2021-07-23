@@ -1,0 +1,26 @@
+.image{
+    width: 100%;
+    height: 260px;
+    margin-top: 7rem;
+}
+.text{
+    width:85%
+}
+.clearfix{
+    height: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+    .cards-cont{
+        width: 98%;
+        margin: auto;
+    }
+    .image{
+        margin: 2px auto;
+        height: 175px;
+        width: 80%;
+    }
+    .mt-5{
+        margin-top: 15px;
+    }
+}

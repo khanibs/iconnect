@@ -1,0 +1,15 @@
+.button-answer{
+display: flex;
+justify-content: space-between;
+}
+.elegible-container{
+    margin: 5rem auto;
+}
+
+@media only screen and (max-width: 500px) {
+    .elegible-container{
+        width: 90%;
+        margin: 5rem auto;
+        padding: 10px;
+    }
+}

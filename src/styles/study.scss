@@ -1,0 +1,56 @@
+.wrapper{
+    .inner-div{
+        padding-top: 5rem;
+
+    }
+    .cards-container{
+        position: relative;
+        margin: auto;
+    }
+    .cards-flex{
+        position: absolute;
+        top: -9.75rem;
+        //left: 50%;
+        //transform: translateX(-50%);
+        
+    }
+    .cards{
+        padding: 20px 15px;
+        border-radius: 3px;
+        width: 320px;
+        margin: 0px 10px;
+    }
+    .anemia-mds-description{
+        margin: auto;
+        position: relative;
+       // top: 8rem;
+    }
+    .clearfix{
+        min-height: 8rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .wrapper{
+    .cards-flex{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .clearfix{
+        min-height: 20.5rem;
+    }
+  }
+}
+  @media only screen and (max-width: 999px) {
+      .wrapper{
+    .cards-flex{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .clearfix{
+        min-height: 20.5rem;
+    }
+    .p-5{
+        padding-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.steps{
+    width: calc(100% - 2.5rem - 1rem); top: 50%; transform: translate(-50%, -50%)
+
+
+}
+.w-0{
+    width: 0%;
+}
+
+.w-33{
+    width: 33%;
+}
+.w-26{
+    width: 60px;
+    height: 31px;
+}
+
+@media only screen and (max-width: 500px) {
+    .journey{
+        width: 90%;
+        margin: auto;
+        padding: 0px 10px;
+    }
+    .font-sm{
+        font-size: 10px;
+        line-height: 1rem;
+    }
+}
