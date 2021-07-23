@@ -15,7 +15,7 @@ function FAQ() {
 
     return (
 
-        <div className="lg:w-600 w-90 faq-container rounded-sm  m-auto text-center" id={'faq'}>
+        <div className="lg:w-600 faq-container rounded-sm  m-auto text-center" id={'faq'}>
             <p className="font-jost lg:text-xl sm:text-base font-bold pb-4 pt-2">
                 Frequently Asked Questions.</p>
             <div className="text-left">

@@ -17,7 +17,7 @@ function Features() {
                             qualified technicians.</p>
                     </div>
                     <div>
-                        <img src={i1} className="image" />
+                        <img src={i1} className="image" alt="i1" />
                     </div>
                 </div>
 
@@ -25,7 +25,7 @@ function Features() {
             <div className=" bg-b-2 h-310 bg-center-left lg:mt-40 mt-5" >
                 <div className=" lg:w-800 cards-cont m-auto lg:flex justify-between items-center lg:bg-top-left">
                 <div className="img-name">
-                        <img src={i2} className="image" />
+                        <img src={i2} className="image" alt="i2" />
                     </div>
                     <div className="text pt-4 lg:pl-12">
                         <p className="text-xl font-bold font-jost py-2">  Monthly Check-ups</p>
@@ -49,7 +49,7 @@ study professionals.
 </p>
                     </div>
                 <div className="img-name">
-                        <img src={i3} className="image" />
+                        <img src={i3} className="image" alt="i3" />
                     </div>
                     
                     
